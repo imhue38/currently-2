@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="zh-Hant">
-
 <head>
+
 <meta charset="UTF-8">
 
 <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
@@ -28,9 +28,7 @@ padding:10px;
 
 .window{
 
-width:100%;
-
-max-width:420px;
+width:260px;
 
 background:#FFFDFE;
 
@@ -40,7 +38,7 @@ overflow:hidden;
 
 }
 
-/* Win98 標題列 */
+/* Win98標題列 */
 
 .titlebar{
 
@@ -68,6 +66,8 @@ font-size:11px;
 
 color:#7A678D;
 
+letter-spacing:1px;
+
 }
 
 /* 右上角按鈕 */
@@ -75,6 +75,7 @@ color:#7A678D;
 .controls{
 
 display:flex;
+
 gap:2px;
 
 }
@@ -82,6 +83,7 @@ gap:2px;
 .control{
 
 width:16px;
+
 height:16px;
 
 background:#FDFDFD;
@@ -93,39 +95,36 @@ border-right:1px solid #999;
 border-bottom:1px solid #999;
 
 display:flex;
+
 align-items:center;
+
 justify-content:center;
 
 font-size:8px;
 
 color:#555;
+
 }
 
 /* 內容 */
 
 .content{
 
-padding:18px;
+padding:12px;
 
 background:#FFFCFD;
 
 }
 
-/* 區塊 */
-
-.section{
-
-margin-bottom:16px;
-
-}
+/* 小標籤 */
 
 .label{
 
-font-size:10px;
-
 display:inline-block;
 
-padding:2px 8px;
+padding:2px 6px;
+
+font-size:9px;
 
 background:#F5EEF7;
 
@@ -133,17 +132,19 @@ border:1px solid #E4D9E8;
 
 color:#8C78A0;
 
-margin-bottom:6px;
+margin-bottom:5px;
 
 }
 
+/* 內容文字 */
+
 .value{
 
-font-size:13px;
-
-color:#5E5367;
+font-size:11px;
 
 line-height:1.8;
+
+color:#5E5367;
 
 }
 
@@ -153,7 +154,7 @@ line-height:1.8;
 
 border-top:1px dashed #E6DCE8;
 
-margin:14px 0;
+margin:10px 0;
 
 }
 
@@ -185,7 +186,7 @@ margin:14px 0;
 
 <div class="content">
 
-<div class="section">
+<div>
 
 <div class="label">
 最近聆聽
@@ -199,7 +200,7 @@ Buono!
 
 <div class="divider"></div>
 
-<div class="section">
+<div>
 
 <div class="label">
 正在沉迷
@@ -213,7 +214,7 @@ Rozen Maiden
 
 <div class="divider"></div>
 
-<div class="section">
+<div>
 
 <div class="label">
 在玩什麼
@@ -227,7 +228,7 @@ Animal Crossing
 
 <div class="divider"></div>
 
-<div class="section">
+<div>
 
 <div class="label">
 心情
@@ -244,5 +245,4 @@ Animal Crossing
 </div>
 
 </body>
-
 </html>
